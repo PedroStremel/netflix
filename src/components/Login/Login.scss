@@ -1,0 +1,80 @@
+.login {
+    overflow: hidden;
+    height: 100vh;
+
+    .shadow{
+        background-color: rgba(0,0,0,.4);
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+    form {
+        color: #fff;
+
+        input{
+            color: #fff;
+        }
+
+        .form-check {
+            margin-top: 7px;
+        }
+
+        ::placeholder {
+            color: #6b6767;
+        }
+
+        button{
+            padding: 2px 129px 2px;
+            margin-left: 2px;
+            border: 0;
+            background-color: rgb(211, 38, 38);
+            
+            
+        }
+    }
+
+
+    .holder {
+    background-color: black;
+    padding: 60px 68px 40px;
+    min-height: 460px;
+    width: 450px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 147px;
+    left: calc(50% - 233px);
+
+    input{
+        background-color: #353333;
+        border: 0;
+        margin-bottom: 20px;
+        color: #ffff;
+    }
+
+    img {
+        max-width: 100%;
+        
+    }
+
+    .other-login{
+        .new-account{
+            color: #737373;
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 16px;
+
+            a{
+                color:#fff ;
+                margin-left: 5px;
+            }
+
+        }
+    }
+    a{
+        color:#fff ;
+        margin-left: 5px;
+    }
+    }
+}
